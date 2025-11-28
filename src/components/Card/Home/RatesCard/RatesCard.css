@@ -1,0 +1,121 @@
+.card_ {
+  margin: 0px 20px 20px 20px;
+  background-color: #ffffff;
+  text-align: center;
+  background: #ffffff;
+  border: 0.990976px solid #00abc6;
+  box-shadow: 0px 0px 22.818px rgba(0, 171, 198, 0.25);
+  border-radius: 25px;
+}
+
+.card_ .card_inner {
+  padding: 20px 30px 20px 30px;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #f1f2f5;
+}
+
+.card_:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+.card_ .card_inner:nth-child(even) {
+  border: none;
+}
+
+.card_ .card_name {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+.card_ .card_inner .card_name {
+  color: #333799;
+}
+
+.card_ .card_sf {
+  color: #54595f;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.card_ .card_price {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: baseline;
+}
+.card_ .card_price h2 {
+  font-size: 46px;
+  font-weight: 600;
+  margin: 0;
+  /* margin: 15px 0px 20px 0px; */
+  color: #233d62;
+}
+.card_ .card_price span {
+  color: #233d62;
+  font-size: 14px;
+  font-weight: 500;
+}
+.card_ .card_txt {
+  font-size: 16px;
+  line-height: 2em;
+  color: #627c89;
+  margin: 0;
+  font-weight: bold;
+}
+.card_ .card_txt.card_txt_ {
+  margin: 15px 0;
+}
+
+.card_ .card_list {
+  padding: 10px 0 ;
+  text-align: start;
+  margin-bottom: 10px;
+}
+.card_ .card_list li {
+  margin: 0;
+  padding: 10px 0;
+  border: none !important;
+  font-size: 14px;
+  font-weight: 400;
+  color: #565a62;
+  display: flex;
+  gap: 10px;
+}
+.card_ .card_list li span {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #cc7851;
+  background-color: #fcf5f3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_ .card_inner .card_list li span {
+  color: #00abc6;
+  background-color: #f0f4fe;
+}
+.card_ .card_inner a {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 2em;
+  color: #fff;
+  fill: #fff;
+  background: #00abc6;
+  border-radius: 68.0615px;
+  border: none;
+  width: 100%;
+  transition: 0.3s all;
+  padding: 6px 15px;
+
+}
+
+.card_ .card_inner a:hover,
+.card_ .card_inner a:active,
+.card_ .card_inner a:focus {
+  color: #fff;
+  background-color: #00abc6;
+}

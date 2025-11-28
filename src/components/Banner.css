@@ -1,0 +1,82 @@
+.image-slider {
+    position: relative;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease, var(--image-position) 0.5s ease; /* Add transitions for transform and --image-position */
+    
+  }
+  
+  .slick-center .slider-image {
+    transform: scale(1.3) translateX(0.0202787px); /* Zoom in and apply translateX when centered */
+    --image-position: center center; /* Update --image-position when centered */
+    transition: 0.8s;
+  }
+  
+.slick-center .slider-image:hover{
+    transform: scale(1.1) translateX(0.0202787px);
+    transition: 0.8s;
+}
+.banner_ .container-fluid{
+  margin: 0;
+  padding: 0;
+}
+.slider-image {
+  width: 100%;
+  height: auto;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  line-height: 1;
+  color: #000;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+/* Example CSS for responsiveness and overflow fix */
+.intro-slider {
+  width: 100%;
+  overflow: hidden; /* Hide any content that overflows the slider */
+}
+
+.slide-item {
+  width: 100%; /* Ensure each slide takes the full width of the slider */
+}
+
+.slider-video {
+  width: 100%; /* Make the video take the full width of its container */
+  height: auto;
+  max-height: 400px; /* Set a maximum height for the video */
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+}
+
+/*  */
+*{
+  margin: 0;
+  padding: 0;
+}
+.banner_{
+  width: 100%;
+  height: 700px !important;
+
+}
+.banner_ .slider-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}

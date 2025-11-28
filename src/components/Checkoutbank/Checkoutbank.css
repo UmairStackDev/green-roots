@@ -1,0 +1,21 @@
+.bankcheckoutform .heading_check h1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0 0 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+
+.bankcheckoutform .main_form_check {
+    background: #FFFF !important;
+    box-shadow: -3px 2px 12px 7px;
+}
+
+.thankyou{
+   font-family: Arial, Helvetica, sans-serif !important;
+}
+.bankcheckoutform .heading_check1 h1{
+    font-size: 30px;
+    font-weight: 300;
+}

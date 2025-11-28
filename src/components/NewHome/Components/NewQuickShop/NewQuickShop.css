@@ -1,0 +1,75 @@
+.new-quickshop h3{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #48ad92;
+    font-family: 'Cormorant Garamond', serif !important;
+    text-align: center;
+}
+.new-quickshop h3 {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.9;
+}
+.new-quickshop h3 span img{
+    width: 10%;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+
+}
+.new-quickshop .image_div{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    background-color: #7e7512;
+}
+.new-quickshop .image_div a{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 29%;
+}
+.new-quickshop .image_div a img{
+    width: auto;
+    height: 80px;
+    border-radius: 20px;
+}
+
+
+.image_div {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .zoomable-image {
+    transition: transform 0.5s; /* Add a smooth transition for the zoom effect */
+  }
+  
+  .image_div:hover .zoomable-image {
+    transform: scale(1.3); /* Scale the image to 1.1 times its size on hover */
+  }
+  
+
+  .new-quickshop .main_cards_image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+
+  @media (max-width: 991px) {
+    .new-quickshop .main_cards_image{
+      flex-direction: column;
+    }
+    .new-quickshop h3 span img{
+      width: 20%;
+    }
+  }
+
+  @media (max-width: 504px) {
+    .new-quickshop h3 span img{
+      width: 35%;
+    }
+  }

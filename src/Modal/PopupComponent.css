@@ -1,0 +1,45 @@
+/* PopupComponent.css */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px; /* Set the width to 1200px */
+  height: 600px; /* Set the height to 700px */
+  background-color: none;
+  border: none;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  z-index: 999999999999;
+
+}
+
+.popup-content {
+  text-align: center;
+  justify-content: end;
+    position: absolute;
+    top: 5%;
+    right: 30px;
+}
+
+/* Add any additional styles as needed */
+/* .popup{
+  background-image: url("../assets/50percentdiscount.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ */
+ .popup{
+  display: flex;
+  flex-direction: column-reverse;
+ }
+ @media (max-width: 768px) {
+  .popup {
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: none; /* Remove the maximum width */
+    padding: 5%; /* Adjust padding for smaller screens */
+    flex-direction: column-reverse !important;
+    height: 0;
+  }
+}

@@ -1,0 +1,126 @@
+.story .about img {
+    width: 100%;
+}
+
+.story .about .parah p {
+    line-height: 1.7;
+    margin-top: 2%;
+    text-align: center;
+}
+.story .heading{
+    text-align: center;
+}
+.story  .heading .bar {
+    height: 4px;
+    width: 85px;
+    background: #003471;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    margin: auto;
+}
+
+.story .heading .bar::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background: #ffffff;
+    animation: move 2s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(86px);
+    }
+
+}
+
+.story  .inner_banner {
+    width: 100%;
+    /* height: 50vh; */
+    background-color: #0009;
+    position: relative;
+    background-image: url('../assets/HOME/b.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+.story  .inner_banner::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.663);
+    inset: 0;
+}
+
+
+
+.story .inner_banner h1 {
+    color: #fff;
+    /* text-align: end; */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.story .inner_banner .text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    transform: translate(0, -50%);
+    z-index: 99;
+}
+
+.story .inner_banner ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.story .inner_banner ul li {
+    margin: 0 15px;
+    position: relative;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.story .inner_banner ul li::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: -20px;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #003471;
+}
+
+.story .inner_banner ul li:last-child:after {
+    content: none;
+}
+
+
+.story  .inner_banner ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s all;
+}
+
+.story .inner_banner ul li a:hover {
+    color: #003471;
+}

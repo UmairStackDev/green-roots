@@ -1,0 +1,32 @@
+
+
+.header_1 .navbarr {
+  /* background: rgba(255, 255, 255, 0.1); */
+  /* background-color: #24e921 !important; */
+   background: rgb(255,255,255);
+    background: linear-gradient(94deg, rgba(182,229,139,1) 0%, rgba(182,229,139,1) 26%) !important; 
+ background-color: #118611 !important;
+ border-top: 10px solid #c00d0d;
+
+ border-top: 10px solid #2b4413;
+
+  /* border-top: 10px solid #0A0B1A;  */
+  height:10px ;
+
+}
+
+ul,
+li,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input
+a,
+p{
+ 
+font-family: 'Roboto', sans-serif; 
+}

@@ -1,0 +1,80 @@
+  <FormGroup controlId="formCountry">
+                                                <Form.Label>City <span>*</span></Form.Label>
+                                                <Form.Select
+                                                    aria-label="Default select example"
+                                                    placeholder="Select An Option"
+                                                    name="City"
+                                                    value={checkOutForm.City}
+                                                    onChange={handleChange}
+                                                    required
+                                                    isInvalid={!checkOutForm.City}
+                                                >
+                                                    <option></option>
+                                                    <option value="Karachi">Karachi</option>
+                                                    <option value="Lahore">Lahore</option>
+                                                    <option value="Multan">Multan</option>
+                                                    <option value="
+Faisalabad">
+                                                        Faisalabad</option>
+                                                    <option value="Gujranwala">Gujranwala</option>
+                                                    <option value="Islamabad">Islamabad</option>
+                                                    <option value="
+Peshawar">
+                                                        Peshawar</option>
+                                                    <option value="Rawalpindi">Rawalpindi</option>
+                                                    <option value="
+Sialkot">
+                                                        Sialkot</option>
+                                                    <option value="Bahawalpur">Bahawalpur</option>
+                                                    <option value="Rahim Yar Khan">Rahim Yar Khan</option>
+                                                    <option value="
+Sargodha">
+                                                        Sargodha</option>
+                                                    <option value="
+
+Sukkur">
+
+                                                        Sukkur</option>
+                                                    <option value="
+
+Gilgit">
+
+                                                        Gilgit</option>
+                                                    <option value="
+
+Gujrat">
+
+                                                        Gujrat</option>
+                                                    {/* Add other city options here */}
+                                                </Form.Select>
+                                                <Form.Control.Feedback type="invalid">
+                                                    Please select your city.
+                                                </Form.Control.Feedback>
+                                            </FormGroup>
+                                            {checkOutForm.City === 'Karachi' && (
+                                                <FormGroup controlId="formCountry">
+                                                    <Form.Label>Area <span>*</span></Form.Label>
+                                                    <Form.Select
+                                                        aria-label="Default select example"
+                                                        placeholder="Select An Option"
+                                                        name="Area"
+                                                        value={checkOutForm.Area}
+                                                        onChange={handleChange}
+                                                        required
+                                                        isInvalid={!checkOutForm.Area}
+                                                    >
+                                                        <option></option>
+                                                        <option value="CLIFTON">CLIFTON</option>
+                                                        <option value="GULISTAN E JOHAR">GULISTAN E JOHAR </option>
+                                                        <option value="HADEED">HADEED</option>
+                                                        <option value="BALDIA TOWN">BALDIA TOWN</option>
+
+                                                        <option value="
+MALIR">
+                                                            MALIR</option>
+                                                    </Form.Select>
+                                                    <Form.Control.Feedback type="invalid">
+                                                        Please select your area.
+                                                    </Form.Control.Feedback>
+                                                </FormGroup>
+                                            )}

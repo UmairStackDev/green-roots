@@ -1,0 +1,162 @@
+.checkoutform .heading_check h1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0 0 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+
+.checkoutform .main_form_check {
+    background: #FFFF !important;
+    box-shadow: -3px 2px 12px 7px;
+}
+
+.checkoutform .main_form_check .heading_ {
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+.checkoutform .main_form_check .heading_ h3 {
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 700;
+    background: transparent;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.checkoutform .main_form_check .heading_ h3 a,
+.checkoutform .main_form_check .heading_ h3 a:hover {
+    color: #6EC1E4;
+    font-weight: 400;
+}
+
+/* details */
+.checkoutform .main_form_check .main_billing .billing_details .heading_details h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 0 0 34px;
+    text-transform: capitalize;
+}
+.checkoutform .main_form_check .main_billing .billing_details  .form_detail .form-control{
+width:100%;
+}
+.checkoutform .main_form_check .main_billing .billing_details  .form_detail .form-label span{
+     color: red;
+}
+.checkoutform .main_form_check .main_billing .billing_details{
+    width: 50% !important;
+}
+.checkoutform .main_form_check .main_billing .billing_details  .form_detail .form_name{
+    gap: 20px;
+}
+.checkoutform .main_form_check .main_billing .billing_details  .form_detail .form_name .name{
+    width: 100%;
+}
+.checkoutform .main_form_check .main_billing{
+    display: flex;
+    justify-content: space-between;
+}
+.checkoutform .main_form_check .main_billing  .Your_Order .heading_details  h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 0 0 34px;
+    text-transform: capitalize;
+}
+.checkoutform .main_form_check .main_billing .billing_details  .form_detail .form-select ,.checkoutform .main_form_check .main_billing .billing_details  .form_detail .form-select:focus{
+    width: 100% !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.checkoutform .main_form_check .main_billing  .Your_Order{
+    width: 42%  !important;
+}
+.checkoutform .main_form_check .main_billing  .Your_Order .Your_Order_deatail table{
+    padding: 10px !important;
+}
+.checkoutform .main_form_check .main_billing  .Your_Order .Your_Order_deatail table thead tr .product-total {
+background-color: #F5F5F5;
+border-left: none !important;
+border: 1px solid #e5e5e5;
+}
+.checkoutform .main_form_check .main_billing  .Your_Order .Your_Order_deatail table thead tr .product-name{
+    border-right: none;
+    background-color: #F5F5F5;
+    border: 1px solid #e5e5e5;
+    
+}
+.checkoutform .main_form_check .main_billing  .Your_Order .Your_Order_deatail table td ,th{
+    border: 1px solid #e5e5e5;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-right: 0;
+    font-size: 14px;
+}
+
+.checkoutform .main_form_check .main_billing  .Your_Order .Your_Order_deatail table .cart-subtotal th{
+    padding-top: 10px;
+    padding-left: 15px;
+    border-right: 0;
+    
+}
+.checkoutform .main_form_check .main_billing  .Your_Order .Your_Order_deatail table .cart_item .product-total{
+    border-left: none;
+    border-right: 1px solid #e5e5e5;
+    
+    
+}
+.checkoutform .main_form_check .main_billing  .Your_Order .Your_Order_deatail table .cart-subtotal td{
+    border-right: 1px solid #e5e5e5;
+    border-left: none;
+}
+
+.checkoutform .main_form_check .main_billing  .Your_Order .Your_Order_deatail table .order-total td{
+    border-right: 1px solid #e5e5e5;
+    border-left: none;
+    color:rgb(0, 0, 108);
+} 
+.checkoutform .main_form_check .main_billing  .Your_Order .Your_Order_deatail table .order-total th{
+    color:rgb(0, 0, 108);
+}
+
+.checkoutform .main_form_check .main_billing  .Your_Order .main-transfer{
+    border: 1px solid #d3ced2;
+    padding: 30px;
+  
+}
+.checkoutform .main_form_check .main_billing  .Your_Order .main-transfer_1{
+    background-color: #F5F5F5;
+}
+
+.checkoutform .main_form_check .main_billing  .Your_Order .main-transfer_2{
+    border-top: none;
+    background-color: none !important;
+}
+.checkoutform .main_form_check .main_billing .button_{
+    display: flex;
+    justify-content: center;
+}
+.checkoutform .main_form_check .main_billing button{
+    padding: 9px 60px;
+    border: none;
+
+
+}
+
+@media (max-width: 825px) {
+    .checkoutform .main_form_check .main_billing{
+        flex-direction: column;
+    }
+    .checkoutform .main_form_check .main_billing .billing_details{
+        width: 100% !important;
+    }
+    .checkoutform .main_form_check .main_billing .Your_Order{
+        width: 100% !important;
+    }
+}

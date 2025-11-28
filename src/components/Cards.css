@@ -1,0 +1,112 @@
+.main_cards{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main_cards .card{
+    transform: translate(1.1);
+}
+.main_cards .card:hover{
+    transform: translate(1.3);
+}
+
+
+.card {
+    position: relative;
+    width: 280px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Style the card overlay */
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Style the hover button */
+.hover-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Show the overlay and button on hover */
+.card:hover .card-overlay {
+    opacity: 1;
+}
+
+/* Scale the card on hover */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Style the hover button on hover */
+.card:hover .hover-button {
+    background-color: #0056b3;
+}
+.card .card-body button{
+    padding: 10px 30px;
+    background-color:rgb(3, 45, 3);
+    color: #fff;
+    border: none;
+    
+}
+.card .card-body .card-title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    white-space: nowrap;
+}
+.card .card-body{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}.card  .img_4{
+    height: 248px !important;
+}
+.card .card-body{
+    text-align: center;
+}
+
+@media (max-width: 1093px) {
+    .main_cards{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .main_cards .card{
+        margin: auto;
+        width: 50%;
+    }
+    .card img{
+        width: 100%;
+    }
+}  

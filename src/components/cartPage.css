@@ -1,0 +1,16 @@
+ .quantity{
+    width: 166px !important;
+}
+.price{
+    width: 201px !important;
+}
+
+/* @media (max-width: 992px) {
+   .cartpage_page .row{
+    display: flex !important;
+    flex-direction: column !important;
+   }
+   .cartpage_page .row .col_cart_1 , .cartpage_page .row .col_cart_2{
+    width: 100% !important;
+   }
+} */

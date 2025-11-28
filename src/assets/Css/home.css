@@ -1,0 +1,1254 @@
+.homePage {
+  background-color: #080111;
+}
+
+.homePage .services_tab,
+.homePage .ourWork,
+.homePage .whyMCSDigitizing,
+.homePage .whoarewe,
+.homePage .ourPricing,
+.homePage .faq,
+.homePage .mcsby {
+  background-color: #080111;
+  padding: 100px 0;
+}
+
+/* ---------------- Services ----------------------------- */
+.homePage .services {
+  background-color: #080111;
+  /* background-image: url("../Images/2.svg");
+  background-repeat: no-repeat; */
+  /* background-color: #fff; */
+  /* border-radius: 80px 80px 0 0; */
+  /* background-position: center center; */
+  
+  width: 100%;
+  padding: 170px 0;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.homePage .services::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  right: 0;
+  background-image: url("../images/4.png");
+  background-repeat: no-repeat;
+  /* background-size: 10px 10px; */
+  width: 37%;
+  height: 100%;
+}
+.homePage .services::after {
+  content: "";
+  position: absolute;
+  top: 35%;
+  left: 0;
+  background-image: url("../images/4.png");
+  background-repeat: no-repeat;
+  /* background-size: 10px 10px; */
+  width: 37%;
+  height: 100%;
+}
+
+.homePage .services h2 {
+  font-size: 50px;
+  font-weight: 700;
+  /* position: relative; */
+  margin-bottom: 90px;
+  color: #fff;
+  display: flex;
+  gap: 10px;
+}
+/* .homePage .services h2::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 50px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #8688a0;
+} */
+
+.homePage .services .box {
+  inset: 0px auto auto 0px;
+  margin: 0px;
+  /* max-width: 1289px; */
+  /* width: 1289px; */
+  /* height: 657.375px;
+  max-height: 657.375px; */
+  /* max-width: 100%;
+  width: 100%; */
+  padding: 0px;
+  transform: translate(0px, 0px);
+  overflow-y: hidden;
+  position: relative;
+  z-index: 5;
+  border-radius: 50px;
+}
+
+.homePage .services .box ul {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  box-shadow: 0px 4px 25px rgba(0, 171, 198, 0.24);
+  border-radius: 50px;
+}
+.homePage .services .box ul li {
+  transform: translate(0px, 0px);
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  /* top: -570px; */
+  left: 0;
+  width: 100%;
+  border: 1px solid #00abc6;
+  background-color: #080111;
+
+  border-radius: 50px;
+  height: calc(100vh - 100px);
+  margin: 0;
+  padding: 30px 30px;
+  z-index: 1;
+  color: #fff;
+  transition: 0.6s all;
+}
+.homePage .box ul li:first-child {
+  background-color: #080111;
+  z-index: 3;
+  height: calc(100vh - 200px);
+  top: 100%;
+  /* top: -550px; */
+  aspect-ratio: 1 / 1;
+  /* animation: 4s linear 5s infinite alternate animating-multiple-properties; */
+}
+.homePage .box ul li:nth-child(2) {
+  /* animation: 6s linear 10s infinite alternate animating-multiple-properties2; */
+}
+.homePage .box ul li:last-child {
+  z-index: 0;
+  height: 100vh;
+  top: 0;
+}
+
+.homePage .box ul li .box_inner {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.homePage .box ul li .box_inner .right,
+.homePage .box ul li .box_inner .left {
+  width: 48%;
+}
+.homePage .box ul li .box_inner .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.homePage .box ul li .box_inner .right h2 {
+  color: #00abc6;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+.homePage .box ul li .box_inner .right p {
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.homePage .box ul li .box_inner .right h5 span {
+  margin-right: 15px;
+}
+
+.homePage .box ul li .box_inner .left img {
+  border-radius: 30px;
+  height: 100%;
+}
+.homePage .box ul li .box_inner .right_inner_ {
+  display: none;
+}
+
+/* @keyframes animating-multiple-properties {
+  from {
+     top: -550px;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes animating-multiple-properties2 {
+  from {
+     top: -570px;
+  }
+  to {
+    top: 0;
+  }
+} */
+
+
+/* ---------------- Services ----------------------------- */
+
+/* ---------------- Services Tab ----------------------------- */
+.homePage .services_tab {
+  /* position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; */
+  /* background-size: 100% 100%; */
+
+
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+.homePage .services_tab::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #000000d0;
+}
+.homePage .services_tab .container {
+  position: relative;
+  z-index: 1;
+}
+.homePage .services_tab .nav-tabs {
+  background: rgba(27, 15, 66, 0.5);
+  border: 1px solid #00abc6;
+  box-shadow: 0px 20.0941px 70.3292px -6.02822px rgba(0, 0, 0, 0.1);
+  border-radius: 1507.05px;
+  padding: 10px 20px;
+  gap: 15px;
+}
+
+.homePage .services_tab .nav-tabs li button {
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 60.2822px;
+  color: #fff;
+}
+
+.homePage .nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active {
+  background: #00abc6 !important;
+  border-color: transparent !important;
+}
+
+.homePage .services_tab .tab-content .tab-pane {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.homePage .services_tab .tab-content .tab-pane p,
+.homePage .services_tab .tab-content .tab-pane a {
+  color: #fff;
+}
+
+/* ---------------- Services Tab ----------------------------- */
+
+/* ---------------- ourWork ----------------------------- */
+
+.homePage .ourWork h2 {
+  color: #fff;
+  font-size: 61px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-bottom: 100px;
+  text-transform: capitalize;
+}
+.homePage .ourWork .SliderTxt .swiper-slide {
+  font-size: 90px !important;
+  font-weight: 700;
+  color: #00abc6;
+  white-space: nowrap;
+  text-align: center;
+  width: fit-content;
+}
+.homePage .ourWork .mySwiper {
+  background-color: #080111;
+  /* border: 1px solid #00abc6; */
+  padding: 30px 0;
+  border-radius: 30px;
+  /* box-shadow: 0px 4px 25px rgba(0, 171, 198, 0.24); */
+}
+.homePage .ourWork .mySwiper .swiper-slide img {
+  object-fit: contain;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.homePage .ourWork .ourWork_inner {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.homePage .ourWork .ourWork_inner h3 {
+  color: #00abc6;
+  font-weight: 600;
+  line-height: 51px;
+}
+
+.homePage .ourWork .ourWork_inner p {
+  color: #959292;
+  line-height: 34px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.homePage .ourWork .ourWork_inner button {
+  background: #00abc6;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 51px;
+  padding: 12.75px 20px 12.75px 19.5px;
+  margin-top: 20px;
+}
+
+/* ---------------- ourWork ----------------------------- */
+
+/* ---------------- whyMCSDigitizing ----------------------------- */
+
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one {
+  padding-top: 200px;
+}
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 5%;
+}
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img {
+  width: 100%;
+  border-radius: 8px;
+  filter: drop-shadow(0px 4px 25px rgba(0, 171, 198, 0.25));
+  border-radius: 10px;
+}
+
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-1 {
+  position: absolute;
+  width: 406px;
+  height: 300px;
+  left: 0;
+  top: -120px;
+  z-index: 1;
+}
+
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-2 {
+  position: absolute;
+  width: 281px;
+  height: 170px;
+  left: 500px;
+  top: -80px;
+  z-index: 1;
+}
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-3 {
+  width: 25%;
+  height: 450px;
+}
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-4 {
+  width: 60%;
+  height: 300px;
+}
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two {
+  padding-top: 80px;
+}
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.homePage
+  .whyMCSDigitizing
+  .whyMCSDigitizing_inner-two
+  .whyMCSDigitizing_inner-two__inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+}
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .serv {
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+  width: 25%;
+}
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .serv .serv__head {
+  padding: 50px 0;
+}
+
+.homePage
+  .whyMCSDigitizing
+  .whyMCSDigitizing_inner-two
+  .serv
+  .serv__head
+  .count {
+  font-size: 15px;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  font-weight: 500;
+  background-color: #080111 !important;
+  box-shadow: 0px 17px 30px 0px rgba(0, 0, 0, 0.07);
+  border: 1px solid #00abc6;
+  line-height: 1em;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .bar {
+  position: absolute;
+  top: 27%;
+  left: 10%;
+  height: 5px;
+  width: 80%;
+  background-color: #00abc6;
+  z-index: 0;
+}
+
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .serv .serv__body h3 {
+  color: #00abc6;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .serv .serv__body p {
+  color: rgba(255, 255, 255, 0.73);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 26px;
+}
+
+/* ---------------- whyMCSDigitizing ----------------------------- */
+
+/* ---------------- who Are We ----------------------------- */
+
+.homePage .whoarewe .whoarewe_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homePage .whoarewe .whoarewe_inner .imgg {
+  width: 50%;
+  text-align: center;
+}
+.homePage .whoarewe .whoarewe_inner .imgg img {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 0 80px #04c2df7c;
+  border-radius: 100%;
+}
+.homePage .whoarewe .whoarewe_inner .text {
+  width: 40%;
+}
+.homePage .whoarewe .whoarewe_inner .text h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.homePage .whoarewe .whoarewe_inner .text p {
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #737588fa;
+}
+
+/* ---------------- who Are We ----------------------------- */
+
+/* ---------------- MCS By ----------------------------- */
+
+.homePage .mcsby .mcsby__inner {
+  padding: 100px 0;
+}
+
+.homePage .mcsby .mcsby__inner h2 {
+  background-color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  text-align: center;
+  position: relative;
+}
+.homePage .mcsby .mcsby__inner .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 0 0 0;
+}
+
+.homePage .mcsby .mcsby__inner .content .box h3 {
+  font-size: 51px;
+  font-weight: 700;
+  color: #00abc6;
+  margin-bottom: 20px;
+}
+
+.homePage .mcsby .mcsby__inner .content .box span {
+  color: #fff;
+  font-weight: 400;
+}
+
+/* ---------------- MCS By ----------------------------- */
+
+/* ---------------- ourPricing ----------------------------- */
+.homePage .ourPricing {
+  position: relative;
+}
+
+.homePage .ourPricing .head {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.homePage .ourPricing .head h2 {
+  color: #fff;
+  font-size: 61px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+.homePage .ourPricing .body .body-body {
+  padding: 50px 0;
+}
+
+.homePage .ourPricing .body .body-foot {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.homePage .ourPricing .body .body-foot h2 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.homePage .ourPricing .body .body-foot h2 span {
+  color: #00abc6;
+}
+/* ---------------- ourPricing ----------------------------- */
+
+/* ---------------- geHighQuality ----------------------------- */
+.homePage .geHighQuality {
+  background: linear-gradient(180deg, #00abc6 0%, #007fc6 100%);
+  padding: 50px 0;
+  border-radius: 0 0 50px 50px;
+}
+.homePage .geHighQuality .mcsby_pop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.homePage .geHighQuality .mcsby_pop .left {
+  width: 30%;
+}
+
+.homePage .geHighQuality .mcsby_pop .right {
+  width: 60%;
+}
+
+.homePage .geHighQuality .mcsby_pop h3 {
+  font-weight: 500;
+  font-size: 45px;
+  color: #ffffff;
+  letter-spacing: 0.334811px;
+  margin-bottom: 20px;
+}
+
+.homePage .geHighQuality .mcsby_pop a {
+  color: #ffffff;
+  letter-spacing: 2.83302px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 23.9962px;
+  line-height: 40px;
+  background-color: transparent;
+  border: none;
+  margin: 50px 0 0 30px;
+  padding: 10px;
+  box-shadow: 1px 1px 20px #00abc6;
+}
+
+/* ---------------- geHighQuality ----------------------------- */
+
+/* ---------------- swiper ----------------------------- */
+.homePage .swiper_nav {
+  background-color: #080111;
+  padding: 0;
+  position: relative;
+  padding: 100px 0;
+}
+.homePage .swiper_nav .container {
+  position: relative;
+}
+.homePage .swiper_nav .inverted {
+  width: 200px;
+  position: absolute;
+  top: 30px;
+  right: 60px;
+}
+
+.homePage .swiper_nav .boxed {
+  width: 200px;
+  position: absolute;
+  bottom: 90px;
+  left: -30px;
+}
+
+.homePage .swiper_nav .head h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 80px;
+}
+.homePage .swiper_nav .body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.homePage .swiper_nav .body .right {
+  width: 60%;
+}
+.homePage .swiper_nav .body .left {
+  width: 30%;
+}
+
+.homePage .swiper_nav .swiper .txt p {
+  font-size: 25px;
+  color: #fff;
+}
+
+.homePage .swiper_nav .swiper .whosend {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 15px;
+}
+.homePage .swiper_nav .swiper .whosend img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.homePage .swiper_nav .swiper .whosend .txt_inner p {
+  font-size: 18px;
+  color: #787878;
+}
+.homePage .swiper_nav .swiper .whosend .txt_inner span {
+  font-size: 14px;
+  color: #787878;
+}
+
+/*
+.homePage .swiper_nav .swiper_nav__imgg img {
+  width: 100px;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.homePage .swiper_nav .swiper_nav__imgg .img-1 {
+  position: absolute;
+  top: 0;
+  right: 170px;
+  width: 240px;
+}
+.homePage .swiper_nav .swiper_nav__imgg .img-2 {
+  position: absolute;
+  top: 250px;
+  right: 350px;
+  width: 80px;
+}
+
+.homePage .swiper_nav .swiper_nav__imgg .img-3 {
+  position: absolute;
+  top: 190px;
+  right: 10px;
+  width: 100px;
+}
+
+.homePage .swiper_nav .swiper_nav__imgg .img-4 {
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  width: 100px;
+  transform: rotate(40deg);
+}
+
+.homePage .swiper_nav .swiper .imgg {
+  width: 20%;
+  margin: auto;
+} */
+
+/* ---------------- swiper ----------------------------- */
+
+/* ---------------- faq ----------------------------- */
+.homePage .faq .head img {
+  width: 5%;
+}
+.homePage .faq .head h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.homePage .faq .body .accordion {
+  --bs-border-color: none !important;
+  outline: none;
+  margin: 20px 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #080111 !important;
+}
+
+.homePage .faq .body .accordion .accordion-item {
+  background-color: #000;
+}
+
+.homePage .faq .body .accordion .accordion-header button.collapsed {
+  background-color: #080111;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  border: 1px solid transparent;
+  border-bottom-color: #00abc6;
+  color: #fff;
+  padding: 20px;
+}
+.homePage .faq .body .accordion .accordion-header button {
+  background-color: #00abc6;
+  box-shadow: none !important;
+  /* border-radius: 0 !important; */
+  border: 1px solid transparent;
+  padding: 30px 20px;
+  color: #fff;
+  border-radius: 0 0 20px 20px;
+}
+.homePage .faq .body .accordion .accordion-header button::after {
+  filter: invert(0) !important;
+}
+.homePage .faq .body .accordion .accordion-header button.collapsed::after {
+  filter: invert(1) !important;
+}
+.homePage .faq .body .accordion .accordion-body {
+  background-color: #080111;
+  color: #fff;
+  box-shadow: 0px 4px 25px rgba(0, 171, 198, 0.24);
+}
+
+.homePage .faq .body-contactTxt {
+  padding: 100px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* ---------------- faq ----------------------------- */
+
+@media screen and (max-width: 1200px) {
+  .homePage .services_tab .nav-tabs li button {
+    font-size: 12px;
+    padding: 10px 3px;
+  }
+}
+
+@media screen and (max-width: 1046px) {
+  .banner_Home .text .left h1 {
+    font-size: 32px;
+    line-height: 47px;
+  }
+
+  .banner_Home .text .left h1 span {
+    font-size: 32px;
+  }
+
+  .banner_Home p {
+    font-size: 12px;
+  }
+
+  .btnnn {
+    padding: 4px 16px !important;
+    font-size: 12px;
+  }
+
+  .banner_Home .text .btnn a.abo {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner_Home .text {
+    padding: 0 !important;
+  }
+  .homePage .services_tab .nav-tabs {
+    align-items: center;
+  }
+  .homePage .services_tab .container {
+    max-width: 1000px;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-1 {
+    width: 306px;
+    height: 290px;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-2 {
+    width: 181px;
+    height: 158px;
+    left: 361px;
+    top: -165px;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-4 {
+    width: 65%;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-3 {
+    width: 35%;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .bar {
+    top: 20%;
+  }
+  .homePage .whoarewe .whoarewe_inner .imgg img {
+    width: 300px;
+    height: 300px;
+  }
+  .homePage .whoarewe .whoarewe_inner .text h2 {
+    font-size: 35px;
+  }
+  .homePage .swiper_nav .head h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .homePage .swiper_nav .inverted {
+    width: 100px;
+    top: 0px;
+  }
+  .homePage .swiper_nav .boxed {
+    width: 150px;
+    top: 250px;
+  }
+  .homePage .swiper_nav .body {
+    flex-direction: column;
+  }
+  .homePage .swiper_nav .body .right {
+    width: 100%;
+  }
+
+  .homePage .faq .body .accordion .accordion-body {
+    font-size: 12px;
+  }
+  .homePage .faq .body .accordion .accordion-header button {
+    font-size: 14px;
+  }
+
+  .homePage .faq .head h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 890px) {
+  .homePage .ourWork .SliderTxt .swiper-slide {
+    font-size: 55px !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .banner_Home .text {
+    display: block;
+    position: relative;
+  }
+  .banner_Home .text .right{
+    width: 100%;
+  }
+
+  .banner_Home .text .left{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .homePage .services::before {
+    top: 15%;
+  }
+  .homePage .services::after {
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner_Home .text .left h1 {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .homePage .services h2 {
+    font-size: 30px;
+    margin-bottom: 10px !important;
+  }
+  .homePage .box ul li .box_inner .right h2 {
+    font-size: 13px;
+  }
+  .homePage .box ul li .box_inner .right p {
+    font-size: 10px;
+    line-height: 20px;
+    margin-bottom: 0 !important;
+  }
+
+  .homePage .box ul li h5 {
+    font-size: 15px;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-1 {
+    width: 205px;
+    height: 220px;
+    top: -150px;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-2 {
+    left: 246px;
+    top: -164px;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-4 {
+    width: 60%;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-3 {
+    width: 40%;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .bar {
+    top: 17%;
+  }
+  .homePage .whoarewe .whoarewe_inner .text p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .homePage .whoarewe .whoarewe_inner .text h2 {
+    font-size: 25px;
+  }
+  .homePage .whoarewe .whoarewe_inner .imgg img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .homePage .mcsby .mcsby__inner .content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .homePage .mcsby .mcsby__inner .content .box h3 {
+    text-align: center;
+  }
+  .homePage .swiper_nav .inverted {
+    width: 50px;
+  }
+
+  .homePage .faq .head h2 {
+    font-size: 30px;
+  }
+
+  .homePage .faq .body .accordion .accordion-header button {
+    padding: 20px;
+  }
+
+  .homePage .geHighQuality .mcsby_pop h3 {
+    font-size: 21px;
+  }
+
+  .homePage .geHighQuality .mcsby_pop a {
+    font-size: 15px;
+    margin-left: 0;
+  }
+
+  .homePage .box ul li .box_inner {
+    flex-direction: column;
+  }
+  .homePage .box ul li .box_inner .right,
+  .homePage .box ul li .box_inner .left {
+    width: 100%;
+  }
+
+  .homePage .box ul li .box_inner .right_inner_ {
+    display: block;
+  }
+  .homePage .box ul li .box_inner .right_inner__ {
+    display: none;
+  }
+
+  .homePage .box ul li .box_inner .left img {
+    border-radius: 30px;
+    height: 100%;
+    height: 152px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .homePage .services_tab .nav-tabs {
+    gap: 5px;
+  }
+
+  .homePage .services_tab .tab-content .tab-pane {
+    width: 95%;
+  }
+
+  .homePage .nav-justified .nav-item {
+    flex-basis: 1;
+  }
+}
+
+@media screen and (max-width: 771px) {
+  .homePage
+    .whyMCSDigitizing
+    .whyMCSDigitizing_inner-two
+    .whyMCSDigitizing_inner-two__inner {
+    flex-direction: column;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .serv {
+    width: 100%;
+    margin: 0;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .bar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner_Home {
+    height: 60vh !important;
+  }
+  /* .banner_Home .text .right {
+    width: 40%;
+  } */
+  /* .banner_Home .text .right .two {
+    display: none;
+  } */
+  .banner_Home .text .btnn a.abo {
+    font-size: 7px;
+  }
+  .banner_Home .text .left h1 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .homePage .services {
+    padding: 50px 0;
+  }
+  .homePage .ourPricing .body .body-foot h2 {
+    font-size: 35px;
+  }
+  .homePage .ourWork,
+  .homePage .whyMCSDigitizing {
+    padding: 50px 0;
+  }
+
+  .homePage .sliderText {
+    display: none;
+  }
+
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-1 {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-2 {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-4 {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one .imgg img.image-3 {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+
+  .homePage .services::before {
+    top: 0%;
+  }
+  .homePage .services::after {
+    top: 5%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .homePage .swiper_nav .head h2 {
+    font-size: 38px;
+    line-height: 44px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* .banner_Home .text .right {
+    display: none;
+  } */
+
+  .banner_Home .text .left {
+    width: 100%;
+  } 
+  .banner_Home .text .btnn a.abo {
+    font-size: 10px;
+  }
+  .banner_Home .text .left h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .homePage .box ul li h5 {
+    font-size: 12px;
+  }
+  .homePage .services h2 {
+    font-size: 23px;
+  }
+  .homePage .box ul li .box_inner .right p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .homePage .whoarewe .whoarewe_inner {
+    flex-direction: column;
+  }
+  .homePage .whoarewe .whoarewe_inner .imgg,
+  .homePage .whoarewe .whoarewe_inner .text {
+    width: 100%;
+  }
+
+  .homePage .whoarewe .whoarewe_inner .text h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .homePage .whoarewe {
+    padding: 50px 0;
+  }
+  .homePage .mcsby .mcsby__inner h2,
+  .homePage .mcsby .mcsby__inner .content .box h3 {
+    font-size: 35px;
+  }
+
+  .homePage .mcsby {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .bar {
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-one {
+    padding: 0;
+  }
+
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .bar {
+    width: 90%;
+  }
+
+  .homePage .swiper_nav .inverted {
+    width: 37px;
+  }
+  .homePage .swiper_nav .boxed {
+    width: 100px;
+  }
+  .homePage .swiper_nav .body .left {
+    width: 50%;
+  }
+
+  .homePage .swiper_nav .swiper .txt p {
+    font-size: 18px;
+  }
+
+  .homePage .box ul li .box_inner .left img {
+    height: 133px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .homePage .box ul li:first-child {
+    height: calc(100vh - 250px);
+  }
+  .homePage .box ul li {
+    height: calc(100vh - 164px);
+  }
+  .homePage .box ul li:last-child {
+    height: 86vh;
+  }
+  .homePage .services::after {
+    top: 20%;
+  }
+  .homePage .services::before {
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two .bar {
+    width: 100%;
+    left: 30px;
+  }
+  .homePage .whyMCSDigitizing .whyMCSDigitizing_inner-two h2 {
+    font-size: 40px;
+  }
+  .homePage .ourPricing .head h2 {
+    font-size: 40px;
+  }
+  .homePage .swiper_nav .inverted {
+    right: 3%;
+  }
+  .homePage .swiper_nav .head h2 {
+    font-size: 29px;
+    line-height: 35px;
+  }
+
+  .homePage .geHighQuality {
+    padding: 20px 0;
+    border-radius: 0 0 40px 40px;
+  }
+
+  .homePage .geHighQuality .mcsby_pop {
+    flex-direction: column-reverse;
+  }
+
+  .homePage .geHighQuality .mcsby_pop .right {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .homePage .geHighQuality .mcsby_pop h3 {
+    font-size: 17px;
+  }
+
+  .homePage .geHighQuality .mcsby_pop a {
+    font-size: 12px;
+  }
+}
